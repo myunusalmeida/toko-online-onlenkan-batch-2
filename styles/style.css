@@ -7,6 +7,10 @@
   font-family: 'Urbanist', sans-serif;
 }
 
+body {
+  background-color: #FDFDFD;
+}
+
 a {
   text-decoration: none;
 }
@@ -17,5 +21,177 @@ ul {
 
 img {
   max-width: 100%;
+}
+
+section {
+  padding: 100px 0;
+}
+
+section .section-title {
+  font-size: 50px;
+  font-weight: 600;
+  color: #3A3A3A;
+}
+
+section .section-description {
+  color: #333333;
+}
+
+.btn-primary-store {
+  background-color: #603CB6;
+  color: #FFFFFF;
+}
+
+.btn-primary-store:hover {
+  background-color: #3A3A3A;
+  color: #FFFFFF;
+}
+
+.btn-black {
+  background-color: #3A3A3A;
+  color: #FFFFFF;
+  border: 1px solid #603CB6;
+}
+
+.btn-black:hover {
+  background-color: #333333;
+  color: #FFFFFF;
+}
+
+.btn-outline-primary-store {
+  border: 1px solid #603CB6;
+  color: #3A3A3A;
+}
+
+.subscribe .form-subscribe {
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+  border: 1px solid #F7F0EA;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .subscribe .form-subscribe {
+    width: 100%;
+  }
+}
+
+.subscribe .form-subscribe input {
+  width: 70%;
+  border: none;
+}
+
+.subscribe .form-subscribe input:focus {
+  outline: none;
+}
+
+.header {
+  background-color: #F7F0EA;
+}
+
+.header .header-title {
+  font-size: 70px;
+  font-weight: bold;
+  color: #3A3A3A;
+  margin-bottom: 10px;
+}
+
+.header .header-description {
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding-top: 50px;
+  }
+  .header .header-title {
+    font-size: 40px;
+  }
+}
+
+.discover .card .card-img-top {
+  height: 270px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
+.discover .card .card-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #3A3A3A;
+}
+
+.arrival .card, .products .card {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.arrival .card .product-image, .products .card .product-image {
+  height: 215px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.arrival .card .product-title, .products .card .product-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #3A3A3A;
+}
+
+.arrival .card .product-info, .products .card .product-info {
+  color: #333333;
+}
+
+.arrival .card .product-price, .products .card .product-price {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3A3A3A;
+}
+
+.arrival .card .product-price span, .products .card .product-price span {
+  font-size: 14px;
+  color: #333333;
+}
+
+.arrival .card:hover, .products .card:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: 0px 0px 30px rgba(105, 105, 105, 0.1);
+          box-shadow: 0px 0px 30px rgba(105, 105, 105, 0.1);
+}
+
+.detail-product .hero-image {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.detail-product .choice-image {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

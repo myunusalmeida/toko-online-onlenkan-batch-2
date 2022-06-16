@@ -5,6 +5,10 @@
     font-family: 'Urbanist', sans-serif;
 }
 
+body {
+    background-color: #FDFDFD;
+}
+
 a {
     text-decoration: none;
 }
@@ -15,4 +19,18 @@ ul {
 
 img {
     max-width: 100%;
+}
+
+section {
+    padding: 100px 0;
+
+    .section-title {
+        font-size: $h2_size;
+        font-weight: 600;
+        color: $black_color;
+    }
+
+    .section-description {
+        color: $gray_color;
+    }
 }

@@ -1,0 +1,78 @@
+.header {
+    background-color: $bg_color;
+
+    .header-title {
+        font-size: $h1_size;
+        font-weight: bold;
+        color: $black_color;
+        margin-bottom: 10px;
+    }
+
+    .header-description {
+        color: $gray_color;
+        margin-bottom: 30px;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding-top: 50px;
+
+        .header-title {
+            font-size: $h3_size;
+        }
+    }
+}
+
+.discover {
+    .card {
+        .card-img-top {
+            height: 270px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
+        .card-title {
+            font-size: $h4_size;
+            font-weight: 600;
+            color: $black_color;
+        }
+    }
+}
+
+.arrival, .products {
+    .card {
+        .product-image {
+            height: 215px;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+
+        .product-title {
+            font-size: $h5_size;
+            font-weight: 600;
+            color: $black_color;
+        }
+
+        .product-info {
+            color: $gray_color;
+        }
+
+        .product-price {
+            font-size: $h6_size;
+            font-weight: 600;
+            color: $black_color;
+
+            span {
+                font-size: $body_small_size;
+                color: $gray_color;
+            }
+        }
+
+        transition: .3s;
+
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 0px 30px rgba(105, 105, 105, 0.1);
+        }
+    }
+}

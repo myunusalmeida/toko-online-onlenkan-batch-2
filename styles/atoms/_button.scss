@@ -1,0 +1,25 @@
+.btn-primary-store {
+    background-color: $primary_color;
+    color: $white_color;
+
+    &:hover {
+        background-color: $black_color;
+        color: $white_color;
+    }
+}
+
+.btn-black {
+    background-color: $black_color;
+    color: $white_color;
+    border: 1px solid $primary_color;
+
+    &:hover {
+        background-color: $gray_color;
+        color: $white_color;
+    }
+}
+
+.btn-outline-primary-store {
+    border: 1px solid $primary_color;
+    color: $black_color;
+}
