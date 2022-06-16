@@ -33,6 +33,12 @@ section .section-title {
   color: #3A3A3A;
 }
 
+section .section-subtitle {
+  font-size: 30px;
+  font-weight: 600;
+  color: #3A3A3A;
+}
+
 section .section-description {
   color: #333333;
 }
@@ -192,6 +198,32 @@ section .section-description {
   height: 80px;
   -o-object-fit: cover;
      object-fit: cover;
+  cursor: pointer;
+}
+
+.detail-product .quantity {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 50px;
+  background-color: #F7F0EA;
+  padding: 6px 10px;
+}
+
+.detail-product .quantity span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
   cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
